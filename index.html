@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doki Sushi</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <script defer type="module" src="/scripts/index.js"></script>
+</head>
+<body>
+    <!--Navbar-->
+    <nav class="navbar has-shadow is-white is-mobile px-6">
+
+        <div class="navbar-brand">
+            <a href="#" class="navbar-item">
+                DOKI
+                <i class="fas fa-fish"></i>
+            </a>
+            <a href="#" class="navbar-burger" id="burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+        </div>
+    <!--Responsive navbar icon-->
+        <div class="navbar-menu" id="nav-links">
+            <div class="navbar-end">
+                <a href="/index.html" class="navbar-item">Hjem</a>
+                <a href="/meny.html" class="navbar-item">Meny</a>
+                <a href="#" class="navbar-item">Catering</a>
+                <a href="/omoss.html" class="navbar-item">Om oss</a>
+            </div>
+        </div>
+
+    </nav>
+  
+    <!--Main content-->
+    <div class="container">
+        <div class="columns is-vcentered m-6">
+            <div class="column is-6 has-text-centered">
+                <h1 class="is-size-1 title">DOKI</h1>
+                <h2 class="is-size-2 subtitle">Sushi</h2>
+                
+            </div>
+            
+            <div class="column is-6 has-text-centered hero is-white">
+                <figure class=" image is-2by2 is-fullwidth">
+                    <img src="/images//other/preparing-food.jpg" alt="">
+                </figure>
+                
+            </div>
+        </div>
+        <div class="is-mobile">
+            <input id="input-search" class="input" type="text" placeholder="Søk i kategori">
+            <button id="btn" class="button is-fullwidth">
+                <span class="icon">
+                  <i class="fas fa-search"></i>
+                </span>
+                <span>Søk</span>
+              </button>
+        </div>
+
+        <main>
+
+            <section id="dish-section" class="columns is-multiline mt-6 mb-6">
+                
+            </section>
+
+        </main>
+
+        
+
+    </div>
+<!--<script src="/index.js"></script>-->
+<script src="/index.js"></script>
+</body>
+</html>
